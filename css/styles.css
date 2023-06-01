@@ -1,3 +1,71 @@
 body {
-    font-family: 'raleway';
+    font-family: 'roboto', 'raleway', 'sans-serif';    
+    background-color: #ffffff;
+    color: #212121;
+}
+/*this styles are for header nav*/
+.webstudio {
+color: #2396f3;
+text-decoration: none;
+font-family: 'raleway';
+}
+ul {
+    list-style-type: none;
+}
+ul li a {
+        color: #212121;
+        text-decoration: none;
+}
+.link-two {
+    color: #757575;
+}
+ul .link-one:hover,.link-two:hover {
+    color: #2396f3;
+}
+/* this styles are for index */
+.main-box-one {
+    background-color: #2F303A
+    ;
+}
+.main-box-one-button {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.main-title {
+    color: #ffffff;
+}
+.section-box-one-p, .section-box-two-p{
+    color: #757575;
+}
+/* this styles are for main in portfolio*/
+.main-portfolio {
+display: flex;
+flex-direction: row;
+}
+.main-ul-portfolio{
+    display: flex;
+flex-direction: row;
+}
+.main-ul-li-button-portfolio {
+    background-color: #F5F4FA;
+border-radius: 4px;
+color: #212121;
+border: none;
+}
+.main-ul-li-button-portfolio:hover{
+    color: #ffffff;
+    background-color: #2196f3;
+}
+.card-letter{
+    color: #757575;
+}
+/*this styles are for footer in all pages*/
+footer {
+    background-color: #2F303A;
+}
+.footer-p-one {
+    color: #ffffff;
+}
+.footer-p-two {
+    color: rgba(255, 255, 255, 0.6)
 }
