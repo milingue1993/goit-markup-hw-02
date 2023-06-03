@@ -13,6 +13,22 @@ body {
 color: #2396f3;
 text-decoration: none;
 font-family: 'raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+.nav-box-one {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 16px;
+}
+.nav-box-two {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 ul {
     list-style-type: none;
@@ -35,12 +51,59 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
 .main-box-one-button {
     background-color: #2196f3;
     color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
 }
 .main-title {
     color: #ffffff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 .section-box-one-p, .section-box-two-p{
     color: #757575;
+}
+.section-box-one-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+.section-box-one-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.images-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.section-box-two-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.section-box-two-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.section-box-two-p {
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.03em;
 }
 /* this styles are for main in portfolio*/
 .main-portfolio {
@@ -56,14 +119,29 @@ flex-direction: row;
 border-radius: 4px;
 color: #212121;
 border: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+text-align: center;
 }
 .main-ul-li-button-portfolio:hover,.main-ul-li-button-portfolio:focus {
     color: #ffffff;
     background-color: #2196f3;
     cursor: pointer;
 }
+.card-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
 .card-letter{
     color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
 /*this styles are for footer in all pages*/
 footer {
@@ -72,7 +150,15 @@ footer {
 .footer-address{
 color: #ffffff;
 font-style: normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
-.footer-p-one {
-    color: #757575;
+.footer-a-one {
+    color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
