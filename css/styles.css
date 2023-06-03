@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
     font-family: 'roboto', 'raleway', 'sans-serif';    
     background-color: #ffffff;
@@ -19,7 +24,7 @@ ul li a {
 .link-two {
     color: #757575;
 }
-ul .link-one:hover,.link-two:hover {
+ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     color: #2396f3;
 }
 /* this styles are for index */
@@ -52,9 +57,10 @@ border-radius: 4px;
 color: #212121;
 border: none;
 }
-.main-ul-li-button-portfolio:hover{
+.main-ul-li-button-portfolio:hover,.main-ul-li-button-portfolio:focus {
     color: #ffffff;
     background-color: #2196f3;
+    cursor: pointer;
 }
 .card-letter{
     color: #757575;
@@ -63,9 +69,10 @@ border: none;
 footer {
     background-color: #2F303A;
 }
-.footer-p-one {
-    color: #ffffff;
+.footer-address{
+color: #ffffff;
+font-style: normal;
 }
-.footer-p-two {
-    color: rgba(255, 255, 255, 0.6)
+.footer-p-one {
+    color: #757575;
 }
