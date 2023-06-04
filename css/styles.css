@@ -6,7 +6,14 @@
 body {
     font-family: 'roboto', 'raleway', 'sans-serif';    
     background-color: #ffffff;
-    color: #212121;
+    color: #212121; 
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.section {
+    padding: 94px 0;
 }
 /*this styles are for header nav*/
 .webstudio {
@@ -45,8 +52,8 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
 }
 /* this styles are for index */
 .main-box-one {
-    background-color: #2F303A
-    ;
+    background-color: #2F303A;
+    text-align: center;
 }
 .main-box-one-button {
     background-color: #2196f3;
@@ -56,6 +63,7 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     line-height: 30px;
     letter-spacing: 0.06em;
     border-radius: 4px;
+    text-align: center;
 }
 .main-title {
     color: #ffffff;
