@@ -24,18 +24,38 @@ font-size: 26px;
 font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
+margin: 24px 93px 25px auto;
+}
+.header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-box-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .nav-box-one {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 16px;
+    margin: 32px auto 32px 0;   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0;
+
 }
 .nav-box-two {
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: row;
+    margin: 32px auto;
 }
 ul {
     list-style-type: none;
@@ -44,8 +64,18 @@ ul li a {
         color: #212121;
         text-decoration: none;
 }
+.link-one {
+    margin: auto 25px;
+}
+.link-one-one{
+    margin-left: 0px;
+}
 .link-two {
     color: #757575;
+    margin: auto 25px;
+}
+.section-box-one-title {
+    margin-top: 0;
 }
 ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     color: #2396f3;
@@ -54,6 +84,17 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
 .main-box-one {
     background-color: #2F303A;
     text-align: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-box-one-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 .main-box-one-button {
     background-color: #2196f3;
@@ -63,7 +104,12 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     line-height: 30px;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    text-align: center;
+    padding: 10px, 32px, 10px, 32px;
+    width: 261px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
 }
 .main-title {
     color: #ffffff;
@@ -72,6 +118,21 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     line-height: 60px;
     letter-spacing: 0.06em;
     text-align: center;
+    margin: auto;
+}
+.section-box-one{
+    padding-bottom: 0px;
+}
+.section-box-one-ul {
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 30px;
+}
+.section-box-one-list {
+    width: 400px;
 }
 .section-box-one-p, .section-box-two-p{
     color: #757575;
@@ -81,12 +142,14 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     font-weight: 700;
     line-height: 16px;
     letter-spacing: 0.03em;
+    gap: 10px;
 }
 .section-box-one-p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 .images-title {
 font-size: 36px;
