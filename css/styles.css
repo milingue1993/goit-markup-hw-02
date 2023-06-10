@@ -10,9 +10,10 @@ body {
 }
 .container {
     width: 1200px;
-    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section {
     padding: 94px 0;
@@ -20,6 +21,12 @@ body {
 ul, li, p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /*this styles are for header nav*/
 .webstudio {
 color: #2396f3;
@@ -27,9 +34,11 @@ text-decoration: none;
 font-family: 'raleway';
 font-size: 26px;
 font-weight: 700;
-line-height: 31px;
+line-height: 1.192;
 letter-spacing: 0.03em;
-margin: 24px 93px 25px auto;
+margin-right: 93px;
+padding-top: 24px;
+padding-bottom: 25px;
 }
 .border-line {
     border-bottom: 1px solid #ECECEC;
@@ -48,13 +57,15 @@ margin: 24px 93px 25px auto;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    line-height: 16px;
-    margin: 32px auto 32px 0;   
+    line-height: 16px; 
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 0;
-
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
+    gap: 50px;
 }
 .nav-box-two {
     font-size: 14px;
@@ -64,6 +75,7 @@ margin: 24px 93px 25px auto;
     display: flex;
     flex-direction: row;
     padding-top: 32px;
+    padding-bottom: 32px;
     margin: 0;
     gap: 50px;
 }
@@ -75,10 +87,8 @@ ul li a {
         text-decoration: none;
 }
 .link-one {
-    margin: auto 25px;
 }
 .link-one-one{
-    margin-left: 0px;
 }
 .link-two {
     color: #757575;
@@ -91,20 +101,23 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     color: #2396f3;
 }
 /* this styles are for index */
-.main-box-one {
+.main-box-one-color {
     background-color: #2F303A;
-    text-align: center;
     height: 600px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+.main-box-one {
+    display: flex;
+    align-items: center;
+    gap: 30px;    
     flex-direction: column;
 }
 .main-box-one-div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 .main-box-one-button {
     background-color: #2196f3;
@@ -114,35 +127,30 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
     line-height: 30px;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    padding: 10px, 32px, 10px, 32px;
-    width: 261px;
-    height: 50px;
+    padding: 10px, 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     cursor: pointer;
 }
 .main-title {
     color: #ffffff;
+    font-family: 'roboto';
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    margin: auto;
 }
 .section-box-one{
     padding-bottom: 0px;
 }
 .section-box-one-ul {
-    height: 122px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px;
-    gap: 30px;
+    padding-left: 0px;
 }
 .section-box-one-list {
-    width: 400px;
+    flex-basis: calc((100% - 90px) / 4);
 }
 .section-box-one-p, .section-box-two-p{
     color: #757575;
@@ -150,24 +158,33 @@ ul .link-one:hover,.link-two:hover,.link-one:focus,.link-two:focus {
 .section-box-one-title {
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.142;
     letter-spacing: 0.03em;
-    gap: 10px;
+    margin-bottom: 10px;
 }
 .section-box-one-p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    margin: 0px;
 }
 .images-title {
 font-size: 36px;
 font-weight: 700;
-line-height: 42px;
+line-height: 1.166;
 letter-spacing: 0.03em;
 text-align: center;
 margin: 0px;
+margin-bottom: 55px;
+}
+.div-nuestro-equipo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    margin-bottom: 30px;
 }
 .section-inside-box{
 justify-content: center;
@@ -175,63 +192,51 @@ justify-content: center;
 }
 .images-box {
     display: flex;
-    justify-content: space-between;
-padding: 0px;
-    margin: 0px;
+    padding: 0px;
+    gap: 26px;
 }
 .images-insidebox {
-    height: 323.7px;
-    margin-top: 55.05px;
-
+    flex-basis: calc((100% - 52px) / 3);
 }
 .background-color{
     background-color: #F5F4FA;
-    height: 648px;
 }
 .section-box-two-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 1.166;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 0 0 50px 0;
+    margin-bottom: 50px;
 }
 .images-nuestro-equipo{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    text-align: center;
-    padding-bottom: 30px;
+    flex-basis: calc((100% - 97px) / 4);
 }
 .section-box-two {
     display: flex;
-    justify-content: space-between;
-    padding-left: 0;
+    gap: 32px;
+
 }
 .section-box-two-name {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    margin: auto;
-    padding-bottom: 10px;
 }
 .section-box-two-p {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0.03em;
-    margin: auto;
 }
 /* this styles are for main in portfolio*/
 .main-portfolio {
 display: flex;
 flex-direction: row;
-width: 1200px;
-padding-bottom: 0;
 }
 .main-ul-portfolio{
     display: flex;
@@ -239,7 +244,6 @@ padding-bottom: 0;
     gap: 8px;
     justify-content: center;
     align-items: flex-start;
-    height: 38px;
 }
 .main-ul-li-button-portfolio {
     background-color: #F5F4FA;
@@ -250,8 +254,6 @@ padding-bottom: 0;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.03em;
-    height: 38px;
-    text-align: center;
     padding: 6px 24px;
 }
 .main-ul-li-button-portfolio:hover,.main-ul-li-button-portfolio:focus {
@@ -269,17 +271,24 @@ padding-bottom: 0;
 .cards-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
     gap: 30px;
 }
 .cards-section-ul {
-    width: 370px;
-    height: 404px;
     border: 1px solid #EEEEEE;
-    display: flex;
-    flex-wrap: wrap;
+    flex-basis: calc((100% - 60px) / 3);
+}
+.cards-section-ul:hover {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+.div-cards {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 4px;
+
 }
 .card-title{
     font-size: 18px;
