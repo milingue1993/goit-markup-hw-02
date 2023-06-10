@@ -27,6 +27,7 @@ img {
     height: auto;
 }
 
+
 /*this styles are for header nav*/
 .webstudio {
 color: #2396f3;
@@ -86,14 +87,12 @@ ul li a {
         color: #212121;
         text-decoration: none;
 }
-.link-one {
-}
-.link-one-one{
+.link.active {
+    color: #2196f3;
 }
 .link-two {
     color: #757575;
 }
-
 .section-box-one-title {
     margin-top: 0;
 }
